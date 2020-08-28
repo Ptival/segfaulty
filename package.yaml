@@ -1,0 +1,14 @@
+dependencies:
+  - base            >= 4.13.0.0
+  - polysemy        >= 1.3.0.0
+  - polysemy-plugin >= 0.2.5.0
+
+ghc-options:
+  - -fplugin=Polysemy.Plugin
+
+library:
+  other-modules:
+    - Segfaulty
+  source-dirs: lib
+
+name: segfaulty

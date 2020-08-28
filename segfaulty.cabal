@@ -1,0 +1,21 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.2.
+--
+-- see: https://github.com/sol/hpack
+
+name:           segfaulty
+version:        0.0.0
+build-type:     Simple
+
+library
+  other-modules:
+      Segfaulty
+  hs-source-dirs:
+      lib
+  ghc-options: -fplugin=Polysemy.Plugin
+  build-depends:
+      base >=4.13.0.0
+    , polysemy >=1.3.0.0
+    , polysemy-plugin >=0.2.5.0
+  default-language: Haskell2010
